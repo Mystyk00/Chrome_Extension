@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SpyColor</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="text">
+      <label for="analyzeButton"
+        ><h4>Click button and let the magic happen</h4></label
+      >
+    </div>
+    <div class="container">
+      <button id="analyzeButton">Analyze</button>
+    </div>
+    <div class="fonts-container">
+      <h3>Fonts used on active tab page:</h3>
+      <div id="fontContainer"></div>
+    </div>
+    <div class="colors-container">
+      <h3>Colors used on the active tab page:</h3>
+      <div id="colorContainer"></div>
+    </div>
+    <div class="container" id="analyzeAgainContainer"></div>
+    <div id="newAnalyzeAgainContainer"></div>
+    <br />
+    <div id="newDownloadButtonContainer"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
